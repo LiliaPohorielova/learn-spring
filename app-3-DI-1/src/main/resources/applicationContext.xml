@@ -16,7 +16,7 @@
 
     <bean id="musicPlayer"
           class="ua.com.pogorelova.MusicPlayer">
-        <constructor-arg ref="musicBean"/> <!--У нас есть конструктор, мі обязані туда что-то передать (ссылку, значение ...) -->
+        <constructor-arg ref="musicBean"/> <!--У нас есть конструктор, мы обязаны туда что-то передать (ссылку, значение ...) -->
     </bean>
 
 </beans>

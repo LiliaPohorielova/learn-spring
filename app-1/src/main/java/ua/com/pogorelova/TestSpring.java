@@ -1,3 +1,7 @@
+
+//MAVEN DOESN'T WORK!!!
+//TODO Maven
+
 package ua.com.pogorelova;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -10,7 +10,7 @@ public class TestSpring {
         );
 
         //ТЕПЕРЬ НАМ ЭТО БОЛЬШЕ НЕ НУЖНО
-        /*//достать бин из аппликейшн контекста
+        /*достать бин из аппликейшн контекста
         Music music = context.getBean("musicBean", Music.class);
         //пока ручками создаем объект потом будет депенденси инжекшион
         MusicPlayer musicPlayer = new MusicPlayer(music);*/
