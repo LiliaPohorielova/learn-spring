@@ -1,7 +1,9 @@
 package ua.com.pogorelova;
 
-public class PopMusic implements Music {
+import org.springframework.stereotype.Component;
 
+@Component
+public class PopMusic implements Music {
     @Override
     public String getSong() {
         return "O la la la";

@@ -3,7 +3,9 @@ package ua.com.pogorelova;
 public class ClassicalMusic implements Music {
     //запрещаем создавать объект через new
     //подписываем контракт на использование только фабричного метода
-    private ClassicalMusic(){}
+    private ClassicalMusic(){
+
+    }
 
     public static ClassicalMusic getClassicalMusic() {
         System.out.println("new ClassicalMusic");
